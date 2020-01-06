@@ -9,7 +9,7 @@
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/target/debug/hello_world.exe",
-            "args": [],
+            "args": ["foo", "bar"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

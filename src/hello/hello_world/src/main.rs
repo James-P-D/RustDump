@@ -4,11 +4,18 @@ use std::env;
 // CTRL+SHIFT+B to BUILD
 // F5 to RUN
 
+mod variables;
+
+
 fn main() {
-    println!("Hello, world   Is it working!!!!");
+    println!("Hello, world!");
 
-    let args: Vec<String> = env::args().collect();
-    println!("{:?}", args);
+    // Display command-line arguments
+    //let args: Vec<String> = env::args().collect();
+    //println!("{:?}", args);
 
-    ::std::process::exit(1); 
+    variables::variable_examples();
+
+    // Return zero to OS
+    ::std::process::exit(0); 
 }

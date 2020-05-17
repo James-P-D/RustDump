@@ -41,7 +41,11 @@ pub fn variable_examples() {
     // Place variable values in output
     println!("I am {} years old", age);
  
-    // You can define multiple variables
+    // You can define multiple variables (we will use this later for returning multiple values from functions)
     let (f_name, l_name) = ("Derek", "Banas");
 
+    
+    println!("I am {} years old and my name is {} {}", age, f_name, l_name);
+
+    println!("My name is {1} {2} and I am {0} years old", age, f_name, l_name);
 }

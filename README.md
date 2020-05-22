@@ -1,7 +1,9 @@
 # RustDump
 Dumping ground for [Rust](https://www.rust-lang.org/)
 
-## Contents
+(Mostly after watching [Derek Banas' Rust Tutorial](https://www.youtube.com/watch?v=U1EFgCNLDB8) on YouTube.)
+
+## Basics
 
 [main.rs](https://github.com/James-P-D/RustDump/blob/master/src/hello/hello_world/src/main.rs)  
 [variables.rs](https://github.com/James-P-D/RustDump/blob/master/src/hello/hello_world/src/variables.rs)  

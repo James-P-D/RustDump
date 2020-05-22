@@ -5,16 +5,23 @@ use std::env;
 // F5 to RUN
 
 mod variables;
-
+mod output;
+mod maths;
+mod conditionals;
+mod loops;
+mod strings;
 
 fn main() {
-    println!("Hello, world!");
-
     // Display command-line arguments
     //let args: Vec<String> = env::args().collect();
     //println!("{:?}", args);
 
-    variables::variable_examples();
+    //variables::variable_examples();
+    //output::output_examples();
+    //maths::maths_examples();
+    //conditionals::conditional_examples();
+    //loops::loop_examples();
+    strings::string_examples();
 
     // Return zero to OS
     ::std::process::exit(0); 

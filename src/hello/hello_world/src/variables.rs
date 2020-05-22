@@ -2,16 +2,23 @@ use std::{i8, i16, i32, i64, u8, u16, u32, u64, isize, usize, f32, f64};
 
 pub fn variable_examples() {
     println!("Variable Examples");
-    println!("");
+    println!();
 
     // let defines a variable
     // The data type will be guessed if not provided
     // Variable values are immutable (Can't change)
     let num = 10;
- 
+    
+    // This line would produce an error since 'num' isn't mutable
+    //num = num * 2;
+
     // Define a 32 bit mutable integer
     let mut age: i32 = 40;
  
+    // We can also infer the datatype, in this case a signed 32-bit integer
+    let some_int = 999i32;
+    
+
     // There are many number types i8, i16, i32,
     // i64, u8, u16, u32, u64, isize, usize, f32, f64
  
@@ -41,9 +48,8 @@ pub fn variable_examples() {
     // Place variable values in output
     println!("I am {} years old", age);
  
-    // You can define multiple variables (we will use this later for returning multiple values from functions)
+    // You can define multiple variables
     let (f_name, l_name) = ("Derek", "Banas");
-
     
     println!("I am {} years old and my name is {} {}", age, f_name, l_name);
 

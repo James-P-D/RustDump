@@ -10,6 +10,8 @@ mod maths;
 mod conditionals;
 mod loops;
 mod strings;
+mod input;
+mod arrays;
 
 fn main() {
     // Display command-line arguments
@@ -21,7 +23,9 @@ fn main() {
     //maths::maths_examples();
     //conditionals::conditional_examples();
     //loops::loop_examples();
-    strings::string_examples();
+    //strings::string_examples();
+    //input::input_examples();
+    arrays::array_examples();
 
     // Return zero to OS
     ::std::process::exit(0); 
